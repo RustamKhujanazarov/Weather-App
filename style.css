@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./media/background.png);
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+.main{
+    background-image: url(./media/background2.jpg);
+    width: 597px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 25px auto;
+}
+
+.container{
+    padding: 30px 45px 70px 45px;
+    text-align: center;
+}
+
+.form{
+    margin: 0 auto 37px 0;
+    text-align: center;
+}
+
+.info{
+    font-size: 14px;
+    color: red;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.search__input{
+    width: 257px;
+    padding: 8px 20px;
+    background: #FBFBFB;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+}
+
+.content{
+    width: 506px;
+    background: rgba(41, 52, 57, 0.29) 29%;
+    border-radius: 50px;
+}
+
+.content__top{
+    display: flex;
+    padding: 35px 45px;
+    justify-content: space-between;
+}
+
+.city{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFBFB;
+    padding-bottom: 5px;
+}
+
+.date{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 0px;
+    color: #FFFFFF;
+    
+}
+
+.degree{
+    font-weight: 1000;
+    font-size: 80px;
+    line-height: 97px;
+    
+    color: #FDECEC;
+    
+}
+
+.content__bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 29px 50px;
+}
+
+.content__bottom__left{
+    text-align: center;
+    background: #D9D9D9;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+/* .content__top__right{
+    position: relative;
+} */
+
+.content__top__right__img{
+    width: 150px;
+    height: 150px;
+}
+
+.content__top__right__text{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  } */
