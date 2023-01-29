@@ -38,7 +38,9 @@ const update = (weather) => {
             </div>
         </div>
     `
-    
+    if(searchInput.value.length=0){
+        info.innerHTML='please'
+    }
 }
 
 // get weather
